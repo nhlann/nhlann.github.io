@@ -1,0 +1,199 @@
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bài asm4.5</title>
+	<link rel="stylesheet" href="css/common8.css"/>
+	<style>
+		
+		<!--.header {
+			font-family: 'Roboto Condensed', sans-serif;
+			color: white;
+			padding: 10px;
+			background-image: url('https://www.appmachine.com/wp-content/uploads/2016/02/No-Branding-Header-Background-1.jpg');
+			margin-bottom: 10px;
+		}
+
+		.header h1,
+		.header h2 {
+			margin: 0px;
+		}
+
+		.column-left {
+			box-sizing: border-box;
+			float: left;
+		}
+
+		.column-right {
+			box-sizing: border-box;
+			float: left;
+			padding-left: 10px;
+			;
+		}
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		.img {
+			padding-bottom: 10px;
+		}
+		.footer{
+				background-color:lightblue;float:left;width:100%
+		}
+
+		.word{
+				font-family: 'Style Script', cursive;
+		}
+		.img1{
+				width:100%;
+		}
+		.h2{
+			font-family:Arial;margin-top:20px;margin-left:20px;
+		}
+		.content{
+				font-size:20px;margin-left:20px;
+		}
+		.font{
+				font-size:20px;
+				}
+		.cont{
+				margin-left:20px;
+		}
+        /* desktop */
+        @media (min-width: 992px) {
+            .column-left {
+                width: 72%;
+            }
+            .column-right {
+                width: 26%;
+				margin-left:20px;
+            }		
+			.foot{
+			width:30%;float:left;margin-left:35px;
+		}
+			.img1{
+				width:80%;
+				margin-left: 30px;
+			}
+			.img2{
+				width:100%;
+				}
+
+        }
+
+        /* tablet */
+        @media (min-width: 768px) and (max-width: 991px) {
+            .column-left {
+                width: 100%;
+            }
+            .column-right {
+                width: 100%;
+            }
+			.img2{
+				width:30%;
+			}
+			.foot{
+					margin-left:40px;
+			}
+
+        }
+
+        /* mobile */
+        @media (max-width: 767px) {
+            .column-left {
+                width: 100%;
+            }
+            .column-right {
+                width: 100%;
+            }
+			.foot{
+					margin-left:40px;
+			}
+			.img2{
+				width:30%;
+			}
+        }-->
+
+
+	</style>
+</head>
+
+<body>
+	<!-- header -->
+	<div class="header">
+		<h1>FOOTBALLVN</h1>
+		<h2>Trang thông tin bóng đá số 1 trong lòng người viết ra trang này!</h2>
+	</div>
+	<div>
+			<h2 class="h2">Thương vụ của Sancho chuyển tới M.U</h2>
+	</div>
+	<div class="row">
+		<div class="column-left">
+			<img class="img1" src="https://static.bongda24h.vn/medias/standard/2021/6/19/diem-tin-toi-246-mu-gui-de-nghi-moi-cho-sancho.jpg">
+			<br>
+			<div>
+				<p class="content">Thông báo từ trang chủ MU tối 23/7 xác nhận Jadon Sancho sau khi vượt qua cuộc kiểm tra y tế đã ký hợp đồng 5 năm với đội chủ sân Old Trafford. Trong thỏa thuận này có điều khoản cho phép các bên lựa chọn kéo dài ràng buộc thêm 1 năm tùy thuộc vào một số điều kiện nhất định. Hồi còn đá cho Dortmund, Sancho từng ghi ấn tượng mạnh khi ghi 50 bàn và đóng góp 64 đường kiến tạo trong 4 mùa. Cầu thủ 21 tuổi này mới cùng ĐT Anh tham dự EURO 2021 và giành ngôi á quân. 
+
+Chia sẻ sau khi gia nhập đội chủ sân Old Trafford, Sancho nói: "Tôi luôn biết ơn Dortmund vì đội bóng này đã cho tôi cơ hội chơi bóng ở đội một, dù biết một ngày nào đó mình sẽ quay trở lại nước Anh. Với tôi, cơ hội được khoác áo MU giống như một giấc mơ đã trở thành hiện thực. </p>
+			</div>
+			<div>
+			<p class="content">Tôi đang rất háo hức chờ đợi ngày được trình làng ở sân chơi Ngoại hạng Anh. MU là một đội bóng trẻ đầy tiềm năng. Tôi tin chúng tôi có thể cùng nhau mang lại điều đặc biệt cho người hâm mộ trong thời gian tới". 
+
+Trang chủ MU không tiết lộ mức phí chi tiết mà đội bóng này phải chi để có được Sancho nhưng theo nhiều nguồn tin, con số này rơi vào khoảng 73 triệu bảng. 
+
+Theo giới truyền thông Anh, do mới dự EURO 2021 nên trước mắt Sancho đã được MU cho nghỉ ngơi 3 tuần. Điều đó đồng nghĩa với việc anh sẽ bắt đầu tập luyện cùng các đồng đội mới vào ngày 2/8.</p>
+			</div>
+		</div>
+
+		<div class="column-right">
+			<div class="img">
+				<img class="img2" src="https://static.bongda24h.vn/medias/standard/2021/7/3/lich-su-doi-dau-italia-vs-tay-ban-nha.jpg">
+				<br>
+				<br>
+				<a href="asm4.2.html" style="font-family:Arial;color:#a67c7c">Chiến thắng thuyết phục của Ý trước chú bò tót Tây
+					Ban Nha.<a>
+			</div>
+			<div class="img">
+				<img class="img2" src="https://image.thanhnien.vn/1024/uploaded/taynguyen/2021_07_08/anhbk13_tmgm.jpg">
+			</div>
+			<br>
+			<a href="asm4.3.html" style="font-family:Arial;color:#a67c7c">Harry Kane thể hiện bản lĩnh ghi bàn trên chấm phạt đền
+				mang về chiến thằng 2-1 cho Anh tại bán kết</a>
+		</div>
+	</div>
+
+
+	<div class="cont">
+		<a href="asm4.4.html" class="font">*Các cầu thủ Anh nói gì về trận Chung Kết sắp tới</a>
+		<br>
+		<a href="asm4.6.html" class="font">*Harry Kane muốn đến MC</a>
+	</div>
+	<div class="footer">
+		<div class="foot">
+		<br>
+		<h3 class="word" >Contact</h3>
+		<p class="word">Telphone: 012345678</p>
+		<p class="word">Gmail:abcdef@gmail.com</p>
+		<br>
+		</div>
+		<div class="foot">
+		<br>
+		<h3 class="word">Place<h3>
+		<p class="word">Số a, ngõ b, phố xyz, thành phố Hà Nội</p>
+		<br>
+		</div>
+		<div class="foot">
+		<br>
+		<h3 class="word">Company</h3>
+		<p class="word">Công ty Báo lá cải thể thao và du lịch</p>
+		<br>
+		</div>
+	</div>
+
+</body>
+
+</html>
